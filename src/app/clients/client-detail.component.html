@@ -1,0 +1,50 @@
+<div class='card'
+     *ngIf='product'>
+  <div class='card-header'>
+    {{pageTitle + ': ' + client.productName}}
+  </div>
+
+  <div class='card-body'>
+    <div class='row'>
+      <div class='col-md-8'>
+        <div class='row'>
+          <div class='col-md-4'>Name:</div>
+          <div class='col-md-8'>{{client.clientName}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Last Name:</div>
+          <div class='col-md-8'>{{client.Lastname}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Join Date:</div>
+          <div class='col-md-8'>{{client.clientDate}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Email:</div>
+          <div class='col-md-8'>{{client.clientEmail}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Image:</div>
+          <div class='col-md-8'>{{client.imageUrl}}</div>
+        </div>
+    
+      </div>
+
+      <div class='col-md-4'>
+        <img class='center-block img-responsive'
+             [style.width.px]='200'
+             [style.margin.px]='2'
+             [src]='client.imageUrl'
+             [title]='client.clientName'>
+      </div>
+    </div>
+  </div>
+
+  <div class='card-footer'>
+    <button class='btn btn-outline-secondary'
+            (click)='onBack()'
+            style='width:80px'>
+      <i class='fa fa-chevron-left'></i> Back
+    </button>
+  </div>
+</div>

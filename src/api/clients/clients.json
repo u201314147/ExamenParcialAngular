@@ -1,0 +1,18 @@
+[
+  {
+    "clientId": 1,
+    "clientName": "Juan",
+    "clientLastname": "Gomez",
+    "clientDate": "March 19, 1994",
+    "clientEmail": "jugansito_gomez@gmail.com",
+    "imageUrl": "assets/images/leaf_rake.png"
+  },
+  {
+    "clientId": 2,
+    "clientName": "Jose",
+    "clientLastname": "Sanchez",
+    "clientDate": "March 14, 1992",
+    "clientEmail": "jose_sanchez@gmail.com",
+    "imageUrl": "assets/images/hammer.png"
+  }
+]
