@@ -21,7 +21,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/api"
             ],
             "styles": [
               "src/styles.css"
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "products-angular"
+    }
+  },
+  "defaultProject": "products-angular",
+  "cli": {
+    "analytics": "be552ea9-31c9-4bb5-8529-5f145ce75058"
+  }
 }
